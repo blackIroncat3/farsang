@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #555555;
+}
+#tartalom{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.fejlec_img {
+    max-width: 700px;
+    margin: 0px auto;
+    width: 100%;
+}
+.fank{
+    margin-top: 10px;
+    max-width: 420px;
+    float: left;
+    width: 100%
+}
+#sztori{
+    max-width: 310px;
+    float: left;
+    padding: 10px 0px 0px 20px;
+}
+#hozzavalok{
+    float: left;
+    padding-left: 10px;
+}
+#reszletek {
+    content:"";
+    clear:both;
+    display: table;
+}
+#hozzavalok ul li{
+    line-height: 20px;
+}
+#elkeszites{
+    max-width: 380px;
+    float: left;
+    padding: 10px 20px 0px 20px;
+}
+#elkeszites ol li{
+    margin-bottom: 10px;
+}
